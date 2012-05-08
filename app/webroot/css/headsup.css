@@ -1,0 +1,52 @@
+body#headsup {
+	background-color:#f1f2f2;
+}
+
+#login-modal {
+	display:none;
+}
+
+tfoot th {
+	border-bottom:none;
+	border-top:2px solid #555;
+}
+
+h2 a {
+	text-decoration:none;
+	font-size:50%;
+	display:inline-block;
+	margin-left:40px;
+}
+
+#headsup ul {
+	list-style:none;
+	padding-left:0px;
+	margin:0px;
+}
+
+ul.actions {
+	margin-left:0px;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+#content {
+	padding:10px;
+	width:940px;
+	margin:40px auto 0px auto;
+}
+
+#headsup ul.stack li.listheader {
+	font-size:14pt;
+}
+
+#headsup .badge {
+	font-size:11pt;
+}
+
+#headsup ul.stack li {
+	font-size:12pt;
+	padding:4px;
+}

@@ -1,0 +1,24 @@
+<?php 
+$rubricId = $this->params['url']['rubric_id'];
+?>
+
+<div class="criterions form">
+<?php echo $this->Form->create('Criterion');?>
+	<fieldset>
+		<legend><?php echo __('Add Criterion to Rubric'); ?></legend>
+	<?php
+		echo $this->Form->input('rubric_id',array('type'=>'hidden','value'=>$rubricId));
+		echo $this->Form->input('criterion_name');
+		echo $this->Form->input('criterion_description');
+		echo $this->Form->input('criterion_weight');
+		echo $this->Form->input('criterion_extracredit',array('label'=>'Extra Credit'));
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit'));?>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+		<li><?php echo $this->Html->link(__('Back to Rubric'), array('controller' => 'rubrics', 'action' => "view/$rubricId")); ?> </li>
+	</ul>
+</div>
