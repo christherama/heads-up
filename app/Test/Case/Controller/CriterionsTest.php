@@ -47,7 +47,7 @@ class CriterionsTestCase extends CakeTestCase {
 		parent::setUp();
 
 		$this->Criterions = new TestCriterions();
-		$this->->constructClasses();
+		$this->constructClasses();
 	}
 
 /**
